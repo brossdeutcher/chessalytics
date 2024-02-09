@@ -1,0 +1,6 @@
+migrate (change table structures)
+  cd server/prisma
+  npx prisma migrate dev
+
+seed (upload data to existing psql tables)
+  npm run seed
